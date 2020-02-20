@@ -6,8 +6,8 @@ namespace RoyalLondon_Tests
     [TestClass]
     public class UnitTest1
     {
-        private string expected = "£1.10";
-        private string expected2 = "£52.50";
+        private decimal expected = 1.10M;
+        private decimal expected2 = 52.50M;
         private decimal firstMthPay = 4.43M;
         private decimal otherMthPay = 4.37M;
 
