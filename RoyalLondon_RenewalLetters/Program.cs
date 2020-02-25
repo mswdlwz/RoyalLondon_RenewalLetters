@@ -1,7 +1,13 @@
 ﻿/* Author: Martin Wright
- * Date: 20/02/2020
- * Version: 1
+ * Date: 25/02/2020
+ * Version: 2
  * Revisions:
+ *          Moved checks for valid ID, payout amount and annual premium into a 
+ *          seperate "ValidData" class and methods.
+ *          Further class added to hold Insurance Product details (name, payout ammount, annual premium)
+ *          CustLetter class added to handle creation of letters
+ *          Calculation methods revised with "Calculations" Class
+ *          Additional Unit tests added for new methods within "ValidData" Class
  */
 
 using System;
